@@ -5,7 +5,7 @@ image:
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
-  name: redis
+  name: redis1
   port: 6379
   targetPort: 6379
 deployment: 
